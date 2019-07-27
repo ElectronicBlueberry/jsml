@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ElectronicBlueberry/jsml/issues"
   },
-  "homepage": "https://github.com/ElectronicBlueberry/jsml#readme"
+  "homepage": "https://github.com/ElectronicBlueberry/jsml#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.8"
+  }
 }
