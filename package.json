@@ -25,5 +25,8 @@
   "homepage": "https://github.com/ElectronicBlueberry/jsml#readme",
   "devDependencies": {
     "@types/node": "^12.6.8"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
   }
 }
