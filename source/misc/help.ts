@@ -1,4 +1,4 @@
-function print(args: arguments): string {
+function print(args: jsml.arguments): string {
 	// default behaviour
 	return `Usage: jsml.ts [options]
 

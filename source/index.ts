@@ -27,6 +27,6 @@ function run(input_folder: string, output_folder: string, content_folder: string
  * Overwrite the current configuration
  * @param config config object
  */
-function setConfig(config: jsml_config) {}
+function setConfig(config: jsml.config) {}
 
 export { build, transpile, run };
