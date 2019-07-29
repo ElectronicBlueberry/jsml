@@ -3,15 +3,17 @@ function print(args: jsml.arguments): string {
 	return `Usage: jsml.ts [options]
 
 Valid Options are:
-Default behaviour : Builds all .jsml files into html files. Provide input Files
-[file] [file] [file] [...] : Input Files
-[folder] [...] : Input Folder
+Default behaviour : Builds all .jsml files into html files. Provide content Files
 
---transpile : Transpiles .jsml files into javascript, does not build html files. No Input Files required
---build : Runs the transpiled javascript to generate .html files. Provide Input Files
+--templates=[folder] : Path to the folder containing .jsml templates
+--content=[folder] : Path to the folder containint content files
+--output=[folder] : Path to Output files to
 
---config=[file.json] : Custom config file
---file=[file] : Specify a single .jsml file to transpile/build
+--build=transpile : Transpiles .jsml files into javascript, does not build html files. No content Files required
+--build=run : Runs the transpiled javascript to generate .html files. Provide content Files
+
+--watch=all : Watches and rebuilds on template/content changes
+--watch=content : Watches and rebuilds on content changes only
 
 --help : This command
 `;

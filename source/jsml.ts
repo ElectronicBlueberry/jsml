@@ -1,4 +1,3 @@
-import * as config from './config.json';
 import * as help from './misc/help';
 
 const args: jsml.arguments = require('minimist')(process.argv.slice(2));
@@ -8,14 +7,15 @@ if (args.help) {
 	process.exit(0);
 }
 
-if (args.transpile) {
+if (args.build === 'transpile') {
 	// Transpile the .jsml file into javascript
 }
 
-if (args.build) {
+if (args.build === 'run') {
 	// Run the build step, running the transpiled javascript
 }
 
-if (!args.build && !args.transpile) {
-	// Default behaviour, Transpile and Build
+{
+	// Default behaviour, Full Build
+	console.log(process.cwd());
 }
