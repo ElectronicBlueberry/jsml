@@ -10,7 +10,13 @@
 		"type": "git",
 		"url": "git+https://github.com/ElectronicBlueberry/jsml.git"
 	},
-	"keywords": [ "html", "javascript", "template engine", "templating", "static site" ],
+	"keywords": [
+		"html",
+		"javascript",
+		"template engine",
+		"templating",
+		"static site"
+	],
 	"author": "Laila Los",
 	"license": "MIT",
 	"bugs": {
