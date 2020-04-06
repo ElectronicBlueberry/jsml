@@ -27,6 +27,6 @@
 		"@types/node": "^12.6.8"
 	},
 	"dependencies": {
-		"minimist": "^1.2.0"
+		"minimist": "^1.2.3"
 	}
 }
